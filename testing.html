@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Sweet Shop</title>
+      <link rel="stylesheet" href="testing2.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+
+    <header>
+      <nav>
+        <div class="logo">
+           Lakshmi Durga Sweets
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a href="#" onclick="closeMenu()">Home</a></li>
+           <li><a href="#" onclick="closeMenu()">About</a></li>
+           <li><a href="#" onclick="closeMenu()">Services</a></li>
+           <li><a href="#" onclick="closeMenu()">Gallery</a></li>
+           <li><a href="#" onclick="closeMenu()">Feedback</a></li>
+        </ul>
+     </nav>
+    </header>
+      
+
+          <!-- Home Section -->
+          <section id="home">
+            <div class="carousel-container">
+              <div class="carousel-slide active" style="background-color: #c0392b;">
+                <div class="carousel-text">
+                  <h2>"A Sweet Treat for Every Occasion"</h2>
+                  <p>Enjoy a delightful treat that perfectly complements any celebration.</p>
+                </div>
+                <img class="carousel-image" src="images/gulab-jam.png" alt="Sweet Treat">
+              </div>
+            
+              <div class="carousel-slide" style="background-color: #8e44ad;">
+                <div class="carousel-text">
+                  <h2>"Sweetness that Makes Every Moment Special"</h2>
+                  <p>Indulge in the taste of happiness, designed to make your day brighter.</p>
+                </div>
+                <img class="carousel-image" src="images/cake.png" alt="Sweet Treat">
+              </div>
+            
+              <div class="carousel-slide" style="background-color: #2ecc71;">
+                <div class="carousel-text">
+                  <h2>"The Perfect Gift for Any Occasion"</h2>
+                  <p>Share the joy of sweetness with loved ones on special events.</p>
+                </div>
+                <img class="carousel-image" src="images/file.png" alt="Sweet Treat">
+              </div>
+            
+              <div class="carousel-indicators">
+                <div class="carousel-indicator active"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+              </div>
+            </div>
+          </section>
+
+      <!-- About Section -->
+<section id="about" class="about">
+  <div class="container">
+      <h2>About Us</h2>
+      <p>Welcome to Sweets Shop, where we offer a delightful range of sweets made with love and care. Our shop has been serving the community with the finest confections for over a decade. From traditional sweets to modern treats, we have something to satisfy every sweet tooth.</p>
+      <div class="about-content">
+          <div class="about-image">
+              <img src="images/dog.jpeg" alt="About Sweets Shop">
+          </div>
+          <div class="about-text">
+              <h3>Our Story</h3>
+              <p>Started as a small family business, Sweets Shop has grown into a beloved establishment known for its quality and customer service. We take pride in using the best ingredients to create sweets that not only taste good but also bring joy to our customers.</p>
+              <h3>Our Mission</h3>
+              <p>Our mission is to spread happiness through our sweets. We are committed to maintaining the highest standards of quality and ensuring that every customer leaves with a smile.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="varieties" class="varieties">
+  <div class="container">
+      <h2>Our Varieties</h2>
+      <div class="varieties-grid">
+          <div class="variety-item" onclick="location.href='#sweets'">
+              <div class="variety-circle">
+                  <img src="images/Barfi.jpeg" alt="Sweets">
+              </div>
+              <p>Sweets</p>
+          </div>
+          <div class="variety-item" onclick="location.href='#hots'">
+              <div class="variety-circle">
+                  <img src="images/mixture.png" alt="Hots">
+              </div>
+              <p>Hots</p>
+          </div>
+          <div class="variety-item" onclick="location.href='#cakes'">
+              <div class="variety-circle">
+                  <img src="images/cake.png" alt="Cakes">
+              </div>
+              <p>Cakes</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Sweets Section -->
+<section id="sweets" class="sweets">
+  <div class="container">
+      <h2>Our Sweets</h2>
+      <div class="sweets-grid">
+          <div class="sweet-item">
+              <img src="images/dog.jpeg" alt="Sweet 1">
+              <h3>Sweet 1</h3>
+              <p>Description of sweet 1.</p>
+          </div>
+          <div class="sweet-item">
+              <img src="images/dog.jpeg" alt="Sweet 2">
+              <h3>Sweet 2</h3>
+              <p>Description of sweet 2.</p>
+          </div>
+          <div class="sweet-item">
+              <img src="images/dog.jpeg" alt="Sweet 3">
+              <h3>Sweet 3</h3>
+              <p>Description of sweet 3.</p>
+          </div>
+          <div class="sweet-item">
+              <img src="images/dog.jpeg" alt="Sweet 4">
+              <h3>Sweet 4</h3>
+              <p>Description of sweet 4.</p>
+          </div>
+          <div class="sweet-item">
+              <img src="images/dog.jpeg" alt="Sweet 4">
+              <h3>Sweet 5</h3>
+              <p>Description of sweet 5.</p>
+          </div>
+          <div class="sweet-item">
+              <img src="images/dog.jpeg" alt="Sweet 4">
+              <h3>Sweet 6</h3>
+              <p>Description of sweet 6.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--Testimonials Section-->
+<section id="testimonial">
+  <div class="slideshow-container">
+    <h2>Testimonial</h2>
+  
+  <div class="mySlides">
+    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+    <p class="author">- John Keats</p>
+  </div>
+  
+  <div class="mySlides">
+    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+    <p class="author">- Ernest Hemingway</p>
+  </div>
+  
+  <div class="mySlides">
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+    <p class="author">- Thomas A. Edison</p>
+  </div>
+  
+  </div>
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row">
+          <div class="col-50">
+              <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.989951395169!2d80.6640845749133!3d16.47604648426397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fbdc9e38333b%3A0xcbac8efe47a6b4ed!2sSri%20lakshmi%20durga%20sweet%20shop!5e0!3m2!1sen!2sin!4v1717146747650!5m2!1sen!2sin" 
+                  width="100%" 
+                  height="450" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy"></iframe>
+          </div>
+          <div class="col-50 contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Address: 123 Main Street, Anytown, USA</p>
+            <p><i class="fas fa-phone"></i> Phone: (123) 456-7890</p>
+            <p><i class="fas fa-envelope"></i> Email: contact@company.com</p>
+            <p><i class="far fa-clock"></i> Business Hours:</p>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+        </div>        
+      </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-logo">
+              <h3>Sri Lakshmi Durga Sweets</h3>
+              <p>Welcome to Lakshmi Durga Sweets, your one-stop shop for the finest sweets made with love and care. Visit us to experience the best traditional and modern sweets that will leave you wanting more!</p>
+          </div>
+          <div class="footer-nav">
+              <h3>Navigation</h3>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Feedback</a></li>
+              </ul>
+          </div>
+          <div class="follow-us">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-info">
+          <p>&copy; 2024 Sri Lakshmi Durga Sweets. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
+<script>
+        function closeMenu() {
+          document.getElementById("click").checked = false;
+        }
+
+        /* Testimonials Section */
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+      </script>
+   </body>
+</html>
